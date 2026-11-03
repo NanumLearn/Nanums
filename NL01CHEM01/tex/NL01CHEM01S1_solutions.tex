@@ -1,0 +1,231 @@
+% CC BY 4.0 License
+% Copyright (c) 2026 Nanum Learn
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\fancyhead[L]{NL01CHEM01 Session 1 Problem Set Solutions}
+\fancyhead[R]{Nanum Learn}
+\fancyfoot[C]{}
+\pagestyle{fancy}
+\usepackage[skip=10pt]{parskip}
+\setlength{\headheight}{13.59999pt}
+\setlength{\headsep}{8pt}
+
+\usepackage{titlesec}
+\titleformat{\section}
+    {\normalfont\LARGE\bfseries\color{BrickRed}}
+    {\S\! \thesection}
+    {0.5em}
+    {}
+\titleformat{\subsection}
+    {\normalfont\Large\bfseries}
+    {\thesubsection}
+    {0.5em}
+    {}
+
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+
+
+\newcommand{\easy}{(\ensuremath{\bullet \circ \circ})}
+\newcommand{\medium}{(\ensuremath{\bullet \bullet \circ})}
+\newcommand{\hard}{(\ensuremath{\bullet \bullet \bullet})}
+
+\newtheoremstyle{listprobstyle}
+    {\parsep}{\parsep}
+    {\normalfont}
+    {}
+    {\bfseries}
+    {}
+    { }
+    {{\thmname{#1}~\thmnumber{#2}.}~
+        \thmnote{\textcolor{BrickRed}{\bfseries #3}}\\}
+\theoremstyle{listprobstyle}
+\newtheorem{problem}{Problem}
+\newenvironment{solution}
+    {\par\begingroup\color{BrickRed}}
+    {\par\endgroup}
+
+
+
+\title{\textbf{NL01CHEM01 Session 1 Problem Set Solutions}}
+\date{3 November 2026}
+\author{William Kang}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+    \small\textit{Edited and Formatted by Enoch Yu}
+\end{center}
+
+\section{Solutions}
+\begin{problem}[Element, Compound, or Mixture? \easy]
+Write E, C, or M next to each.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Copper wire (\textcolor{BrickRed}{E})
+\begin{solution}
+Copper is one element.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Table salt (\textcolor{BrickRed}{C})
+\begin{solution}
+Salt is the compound sodium chloride.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Well-stirred salt water (\textcolor{BrickRed}{M})
+\begin{solution}
+Saltwater is a mixture.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Room air (\textcolor{BrickRed}{M})
+\begin{solution}
+Air is mostly nitrogen and oxygen mixed.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Distilled water (\textcolor{BrickRed}{C})
+\begin{solution}
+Distilled water is the compound $\mathrm{H_2O}$.
+\end{solution}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[Pure, Uniform, or Non-Uniform? \easy]
+Label each as PURE, UNIFORM, or NON-UNIFORM.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Spoonful of stirred sugar water:
+    \underline{\textcolor{BrickRed}{UNIFORM}}
+\begin{solution}
+Stirred sugar water looks the same throughout but has sugar + water.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Handful of trail mix:
+    \underline{\textcolor{BrickRed}{NON-UNIFORM}}
+\begin{solution}
+Trail mix shows visible parts.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Sealed distilled water:
+    \underline{\textcolor{BrickRed}{PURE}}
+\begin{solution}
+Distilled water has fixed composition.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Rested Italian dressing:
+    \underline{\textcolor{BrickRed}{NON-UNIFORM}}
+\begin{solution}
+Rested dressing separates.
+\end{solution}
+\end{enumerate}
+\end{problem}
+
+\begin{problem}[A Mystery Block \medium]
+A small solid block has mass $54\,\mathrm{g}$ and volume
+$20\,\mathrm{cm^3}$. (a) Compute its density. (b) Which of the
+following elements is the solid block most likely made of:
+aluminum ($2.7\,\mathrm{g/cm^3}$), iron ($7.9\,\mathrm{g/cm^3}$),
+or copper ($8.9\,\mathrm{g/cm^3}$)?
+\end{problem}
+\vspace{-\baselineskip}
+\begin{solution}
+Notice that $\rho = 54/20 = 2.7\,\mathrm{g/cm^3}$. Therefore,
+the block is most likely aluminum. Although color, shape, and size
+were not available, the measured density narrows down the choices.
+\end{solution}
+
+\begin{problem}[Counting Parts of an Atom \medium]
+An atom has atomic number 17 and mass number 35.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Which element is it?
+\begin{solution}
+chlorine ($Z = 17$)
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Number of protons?
+\begin{solution}
+17 protons
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Number of neutrons?
+\begin{solution}
+18 neutrons ($A - Z = 35 - 17$)
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Number of electrons if neutral?
+\begin{solution}
+17 electrons for neutral atom
+\end{solution}
+\vspace{0.5\baselineskip}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[Average Atomic Mass \hard]
+An element has two isotopes. Isotope M weighs $10.0\,\mathrm{u}$
+and makes up 20.0\% of atoms. Isotope N weighs $11.0\,\mathrm{u}$
+and makes up 80.0\%. Find the average atomic mass to one decimal
+place.
+\end{problem}
+\vspace{-\baselineskip}
+\begin{solution}
+The approximate average atomic mass can be represented as
+$(10.0)(0.20) + (11.0)(0.80) = 2.0 + 8.8 = 10.8\,\mathrm{u}$.
+This is because when multiplying each isotope mass by its fraction and
+adding the products, the total fractions sum must to 1.00.
+\end{solution}
+
+
+\begin{problem}[Glass of Water \hard]
+Use $18\,\mathrm{g/mol}$ for water and $6.02 \times 10^{23}$
+particles/mol.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item How many moles in $180\,\mathrm{g}$?
+\begin{solution}
+$180/18 = 10\,\mathrm{mol}$
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item How many molecules total $\rightarrow$ write in scientific
+notation.
+\begin{solution}
+$10 \times 6.02 \times 10^{23} = 6.02 \times 10^{24}$ molecules
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Roughly how many per sip if a glass is six sips?
+\begin{solution}
+About $1 \times 10^{24}$ per sip
+\end{solution}
+\vspace{0.5\baselineskip}
+\end{enumerate}
+\end{problem}
+\end{document}
+
+
