@@ -1,0 +1,336 @@
+% CC BY 4.0 License
+% Copyright (c) 2026 Nanum Learn
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\fancyhead[L]{NL01CHEM01 Session 2 Problem Set Solutions}
+\fancyhead[R]{Nanum Learn}
+\fancyfoot[C]{}
+\pagestyle{fancy}
+\usepackage[skip=10pt]{parskip}
+\setlength{\headheight}{13.59999pt}
+\setlength{\headsep}{8pt}
+
+\usepackage{titlesec}
+\titleformat{\section}
+    {\normalfont\LARGE\bfseries\color{BrickRed}}
+    {\S\! \thesection}
+    {0.5em}
+    {}
+\titleformat{\subsection}
+    {\normalfont\Large\bfseries}
+    {\thesubsection}
+    {0.5em}
+    {}
+
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+
+
+\newcommand{\easy}{(\ensuremath{\bullet \circ \circ})}
+\newcommand{\medium}{(\ensuremath{\bullet \bullet \circ})}
+\newcommand{\hard}{(\ensuremath{\bullet \bullet \bullet})}
+
+\newtheoremstyle{listprobstyle}
+    {\parsep}{\parsep}
+    {\normalfont}
+    {}
+    {\bfseries}
+    {}
+    { }
+    {{\thmname{#1}~\thmnumber{#2}.}~
+        \thmnote{\textcolor{BrickRed}{\bfseries #3}}\\}
+\theoremstyle{listprobstyle}
+\newtheorem{problem}{Problem}
+\newenvironment{solution}
+    {\par\begingroup\color{BrickRed}}
+    {\par\endgroup}
+
+
+
+\title{\textbf{NL01CHEM01 Session 2 Problem Set Solutions}}
+\date{10 November 2026}
+\author{William Kang}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+    \small\textit{Edited and Formatted by Enoch Yu}
+\end{center}
+
+\section{Solutions}
+\begin{problem}[Outer Electrons from Column \easy]
+How many outer electrons do elements in each column have?
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Column 1 (lithium family):
+    \underline{\textcolor{BrickRed}{\phantom{X}1\phantom{X}}}
+\vspace{0.5\baselineskip}
+\item Column 14 (carbon family):
+    \underline{\textcolor{BrickRed}{\phantom{X}4\phantom{X}}}
+\vspace{0.5\baselineskip}
+\item Column 17 (chlorine family):
+    \underline{\textcolor{BrickRed}{\phantom{X}7\phantom{X}}}
+\end{enumerate}
+\end{problem}
+
+\begin{problem}[Column from Outer Count \easy]
+Identify the periodic table column from the number of outer electrons.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item 2 outer electrons:
+    Column
+    \underline{\textcolor{BrickRed}{\phantom{X}2\phantom{X}}}
+\vspace{0.5\baselineskip}
+\item 6 outer electrons:
+    Column
+    \underline{\textcolor{BrickRed}{\phantom{X}16\phantom{X}}}
+\vspace{0.5\baselineskip}
+\item 7 outer electrons:
+    Column
+    \underline{\textcolor{BrickRed}{\phantom{X}17\phantom{X}}}
+\end{enumerate}
+\end{problem}
+
+\begin{problem}[Write the Ion \easy]
+For each atom, write the ion it usually forms.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Sodium: \underline{
+        \textcolor{BrickRed}{\phantom{X}$\mathrm{Na^+}$\phantom{X}}
+    }
+    \begin{solution}
+    Sodium loses 1 electron.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item Magnesium: \underline{
+        \textcolor{BrickRed}{\phantom{X}$\mathrm{Mg^{2+}}\phantom{X}$}
+    }
+    \begin{solution}
+    Magnesium loses 2 electrons.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item Chlorine: \underline{
+        \textcolor{BrickRed}{\phantom{X}$\mathrm{Cl^-}$\phantom{X}}
+    }
+    \begin{solution}
+    Chlorine gains 1 electron.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item Oxygen: \underline{
+        \textcolor{BrickRed}{\phantom{X}$\mathrm{O^{2-}}\phantom{X}$}
+    }
+    \begin{solution}
+    Oxygen gains 2 electrons.
+    \end{solution}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[Ion or Share? \easy]
+Label each compound I (ionic) or C (covalent).
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Salt ($\mathrm{NaCl}$): (\textcolor{BrickRed}{I})
+\begin{solution}
+Sodium transfers an electron to chlorine and the resulting oppositely
+charged ions attract.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item Water ($\mathrm{H_2O}$): (\textcolor{BrickRed}{C})
+\begin{solution}
+Hydrogen and oxygen share electrons, forming covalent bonds.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item $\mathrm{MgCl_2}$: (\textcolor{BrickRed}{I})
+\begin{solution}
+Magnesium forms $\mathrm{Mg^{2+}}$ and chlorine forms $\mathrm{Cl^-}$.
+\end{solution}
+\vspace{0.5\baselineskip}
+
+\item $\mathrm{CO_2}$: (\textcolor{BrickRed}{C})
+\begin{solution}
+Carbon and oxygen share electrons and $\mathrm{CO_2}$ is covalent.
+\end{solution}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[Write the Formula \easy]
+Write the neutral chemical formula formed by each pair of ions.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Sodium ($\mathrm{Na^+}$) and chlorine ($\mathrm{Cl^-}$):
+    \underline{
+        \textcolor{BrickRed}{\phantom{X}$\mathrm{NaCl}$\phantom{X}}
+    }
+    \begin{solution}
+    Sodium has charge $+1$ and chlorine has charge $-1$.
+    \end{solution}
+\vspace{0.5\baselineskip}
+
+\item Magnesium ($\mathrm{Mg^{2+}}$) and oxygen ($\mathrm{O^{2-}}$):
+    \underline{
+        \textcolor{BrickRed}{\phantom{X}$\mathrm{MgO}$\phantom{X}}
+    }
+    \begin{solution}
+    Magnesium has charge $+2$ and oxygen has charge $-2$.
+    \end{solution}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[Count Atoms in a Formula \easy]
+Consider the chemical formula $\mathrm{Al_2O_3}$.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item How many aluminum atoms?
+    \underline{\textcolor{BrickRed}{\phantom{X}2\phantom{X}}}
+\vspace{0.5\baselineskip}
+\item How many oxygen atoms?
+    \underline{\textcolor{BrickRed}{\phantom{X}3\phantom{X}}}
+\vspace{0.5\baselineskip}
+\item What is the Al:O ratio?
+    \underline{\textcolor{BrickRed}{\phantom{X}$2:3$\phantom{X}}}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[Lose or Gain? \easy]
+For each ion, state whether the atom lost or gained electrons.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item $\mathrm{Na^+}$:
+    \underline{\textcolor{BrickRed}{Lost}}
+    \begin{solution}
+    Sodium loses 1 electron to form $\mathrm{Na^+}$.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item $\mathrm{Cl^-}$:
+    \underline{\textcolor{BrickRed}{Gained}}
+    \begin{solution}
+    Chlorine gains 1 electron to form $\mathrm{Cl^-}$.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item $\mathrm{Mg^{2+}}$:
+    \underline{\textcolor{BrickRed}{Lost 2}}
+    \begin{solution}
+    Magnesium loses 2 electrons to form $\mathrm{Mg^{2+}}$.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item $\mathrm{O^{2-}}$:
+    \underline{\textcolor{BrickRed}{Gained 2}}
+    \begin{solution}
+    Oxygen gains 2 electrons to form $\mathrm{O^{2-}}$.
+\end{solution}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[True or False? \easy]
+Write T (true) or F (false) next to each statement.
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item $\mathrm{MgCl_2}$ is neutral overall.
+    (\textcolor{BrickRed}{T})
+    \begin{solution}
+    One $\mathrm{Mg^{2+}}$ ion and two $\mathrm{Cl^-}$
+    ions give total charge $2 - 2=0$.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item $\mathrm{Na^+}$ has more electrons than protons.
+    (\textcolor{BrickRed}{F})
+    \begin{solution}
+    $\mathrm{Na^+}$ has lost 1 electron.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item Subscripts in chemical formulas indicate charge.
+    (\textcolor{BrickRed}{F})
+    \begin{solution}
+    Subscripts count atoms or ions in a chemical formula and
+    superscripts indicate ionic charge.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item Elements in the same column have the same number of electron
+    shells.
+    (\textcolor{BrickRed}{F})
+    \begin{solution}
+    Elements in the same row (period) have the same number of occupied
+    electron shells and columns generally share the same number of
+    valence electrons.
+    \end{solution}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[A Trickier Pair \medium]
+Calcium forms a $2+$ ion ($\mathrm{Ca^{2+}}$), and hydroxide
+is a $1-$ ion ($\mathrm{OH^-}$).
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item Write the neutral chemical formula:
+    \underline{\textcolor{BrickRed}{$\mathrm{Ca(OH)_2}$}}
+    \begin{solution}
+    One calcium ion has charge $+2$ and two hydroxide ions each have
+    charge $-1$.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item How many calcium ions are needed?
+    \underline{\textcolor{BrickRed}{1}}
+    \begin{solution}
+    One $\mathrm{Ca^{2+}}$ ion provides charge $+2$.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item How many hydroxide ions are needed?
+    \underline{\textcolor{BrickRed}{2}}
+    \begin{solution}
+    Two $\mathrm{OH^-}$ ions provide charge $-2$.
+    \end{solution}
+\end{enumerate}
+\end{problem}
+
+
+\begin{problem}[Water in Lewis Form \medium]
+Consider the Lewis structure of water ($\mathrm{H_2O}$).
+\vspace{-0.6\baselineskip}
+\begin{enumerate}[label=\alph*),itemsep=0pt,parsep=0pt,topsep=0pt]
+\item How many shared electron pairs are there?
+    \underline{\textcolor{BrickRed}{\phantom{X}2\phantom{X}}}
+    \begin{solution}
+    Oxygen forms two covalent bonds and each bond contains one shared
+    electron pair.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item How many lone pairs are on the oxygen atom?
+    \underline{\textcolor{BrickRed}{\phantom{X}2\phantom{X}}}
+    \begin{solution}
+    Oxygen has two lone pairs that are not involved in bonding.
+    \end{solution}
+\vspace{0.5\baselineskip}
+\item How many electrons surround the oxygen atom?
+    \underline{\textcolor{BrickRed}{\phantom{X}8\phantom{X}}}
+    \begin{solution}
+    Oxygen has 2 shared pairs and 2 lone pairs where each pair contains
+    2 electrons. Therefore, there are $(2 + 2) \cdot 2 = 8$ electrons
+    around oxygen.
+    \end{solution}
+\end{enumerate}
+\end{problem}
+\end{document}
+
+
